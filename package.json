@@ -1,0 +1,16 @@
+{
+  "name": "telegram-admin-check-bot",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env --env-file-if-exists=.env.local bot.mjs",
+    "test": "node --test --test-isolation=none"
+  },
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "dependencies": {
+    "mongodb": "^7.7.0"
+  }
+}

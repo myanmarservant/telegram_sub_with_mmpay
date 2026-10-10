@@ -1,0 +1,23 @@
+:root { font-family: system-ui, sans-serif; color: #182d38; background: #edf3f5; }
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body { margin: 0; padding: 32px 18px; }
+main { max-width: 480px; margin: auto; background: white; border-radius: 24px; padding: 30px 24px; box-shadow: 0 12px 48px #182d3810; }
+.badge { font-size: 11px; letter-spacing: .14em; font-weight: 700; color: #16857c; }
+h1 { font-size: 28px; letter-spacing: -.04em; margin-bottom: 8px; }
+.intro, #status, dt { color: #677a86; font-size: 14px; }
+#status { line-height: 1.6; }
+.amount { margin-top: 24px; background: #13877e12; padding: 22px; border-radius: 16px; }
+.amount span { display: block; font-size: 13px; }
+.amount strong { display: block; font-size: 40px; margin-top: 8px; }
+dl div { display: flex; gap: 20px; justify-content: space-between; padding: 15px 0; border-bottom: 1px solid #82929b25; }
+dd { margin: 0; text-align: right; overflow-wrap: anywhere; font-size: 14px; max-width: 65%; }
+.notice { font-size: 13px; line-height: 1.6; color: #677a86; }
+button { width: 100%; padding: 16px; border: 0; border-radius: 12px; font: inherit; background: #de3163; color: white; cursor: pointer; }
+button:disabled { opacity: .55; cursor: default; }
+.success { text-align: center; padding: 24px 0 12px; }
+.success-icon { width: 64px; height: 64px; margin: auto; border-radius: 50%; background: #e5f5ec; color: #208653; display: grid; place-items: center; font-size: 34px; }
+.success h2 { font-size: 28px; margin-bottom: 8px; }
+.success p { color: #677a86; line-height: 1.6; font-size: 14px; }
+.failure .success-icon { color: #b53a47; background: #fce9ec; }
+#close-page { margin-top: 20px; background: #182d38; }
