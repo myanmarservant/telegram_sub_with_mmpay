@@ -1,4 +1,4 @@
-# Telegram Payment Bot
+# Telegram Payment Bot Manager (VVIP ဂျာကြီး)
 
 Collect MMK payments with MyanMyanPay and manage paid Telegram group access.
 
